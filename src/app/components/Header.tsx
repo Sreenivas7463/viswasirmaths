@@ -54,7 +54,7 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8 p-1">
             <a href="#hero" onClick={handleClick} className="mt-1 text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Home</a>
             <a href="#about" onClick={handleClick} className="mt-1 text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">About</a>
-            <a href="#features" onClick={handleClick} className="mt-1 text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Features</a>
+            <a href="#courses" onClick={handleClick} className="mt-1 text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Courses</a>
             <ThemeSwitcher />
           </nav>
         </div>
