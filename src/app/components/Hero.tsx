@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="flex justify-center items-center mt-8 space-x-4"> {/* Added wrapper div for centering and spacing */}
             <button className="px-5 py-2 bg-primary-500 text-white rounded-lg shadow hover:bg-primary-600 transition flex items-center justify-center">
              <a href="https://play.google.com/store/apps/details?id=com.fhbwcx.rjyzob" target="_blank" className="flex items-center">
-               <FaAndroid className="mr-2" /> Android App <FaExternalLinkAlt className="ml-2" />
+               <FaAndroid className="mr-2" /> App <FaExternalLinkAlt className="ml-2" />
              </a>
             </button>
             <button className="px-5 py-2 bg-fuchsia-600 text-white rounded-lg shadow hover:bg-fuchsia-500 transition flex items-center justify-center">
