@@ -10,7 +10,7 @@ export default function OffCanvasMenu({ isOpen, onClose, onLinkClick }: { isOpen
         <nav className="flex flex-col space-y-6 mt-12">
           <a href="#hero" onClick={(e) => { onLinkClick(e); onClose(); }} className="text-lg text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Home</a>
           <a href="#about" onClick={(e) => { onLinkClick(e); onClose(); }} className="text-lg text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">About</a>
-          <a href="#features" onClick={(e) => { onLinkClick(e); onClose(); }} className="text-lg text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Features</a>
+          <a href="#courses" onClick={(e) => { onLinkClick(e); onClose(); }} className="text-lg text-gray-900 dark:text-gray-100 hover:text-primary-500 transition">Courses</a>
         </nav>
       </div>
     </div>
